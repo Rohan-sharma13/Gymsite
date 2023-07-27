@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.mainFlex {
+  display: flex;
+  flex-direction: row;
+  font: sans-serif;
+  justify-content: space-around;
+}
+
+.flex_1,
+.flex_2,
+.flex_3 {
+  flex: 1;
+  text-align: center;
+  border: 1px solid rgb(195, 188, 188);
+  font-size: 1.5vw;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}

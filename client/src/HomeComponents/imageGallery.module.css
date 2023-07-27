@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-rows: minmax(40px, 300px);
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

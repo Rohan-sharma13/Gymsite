@@ -1,0 +1,66 @@
+.checkoutPage {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cartItems {
+  margin-bottom: 20px;
+  margin-top: 2rem;
+}
+.checkoutButton {
+  border-radius: 5px;
+  background: tomato;
+  padding: 0.6rem 1.4rem;
+  border: 0px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.itemImage {
+  width: 180px;
+  height: 180px;
+  margin-right: 10px;
+}
+
+.itemDetails {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemName {
+  font-weight: bold;
+}
+.itemDuration {
+  color: gray;
+  margin-top: 1rem;
+}
+
+.itemPrice {
+  color: #888;
+}
+
+.totalPrice {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.totalLabel {
+  margin-right: 10px;
+}
+
+.totalAmount {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.mainGrid {
+  margin-top: 1vw;
+  margin-bottom: 6vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(50px, 210px);
+  row-gap: 1vw;
+  background-color: white;
+}
+
+.pic_1 {
+  background-image: url(../assets//Capture_11.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.pic_2 {
+  background-image: url(../assets//Capture_2.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.pic_3 {
+  background-image: url(../assets//Capture_3.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.pic_4 {
+  background-image: url(../assets//Capture_4.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.pic_5 {
+  background-image: url(../assets//Capture_5.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.pic_6 {
+  background-image: url(../assets//Capture_6.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.pic_7 {
+  background-image: url(../assets//Capture_10.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.pic_8 {
+  background-image: url(../assets//Capture_8.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.pic_9 {
+  background-image: url(../assets//Capture_12.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  grid-row: 1/4;
+  grid-column: 1;
+}
+
+.calenderLogo {
+  grid-row: 6;
+  align-self: center;
+  padding-left: 2vw;
+  padding-right: 0.5vw;
+  font-size: 1.2vw;
+  color: gray;
+}
+
+.date {
+  letter-spacing: 0.02cm;
+  grid-row: 6;
+  padding-right: 4vw;
+  font-size: 1vw;
+  font-weight: bolder;
+  color: gray;
+}
+
+.personLogo {
+  grid-row: 6;
+  align-self: center;
+  padding-right: 0.5vw;
+  font-size: 1.2vw;
+  color: gray;
+}
+.author {
+  letter-spacing: 0.02cm;
+  grid-row: 6;
+  font-size: 1vw;
+  font-weight: bolder;
+  color: gray;
+}
+
+.heading {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  font-size: 2vw;
+  grid-row: 7;
+  grid-column: 1;
+  font-weight: bolder;
+}
+
+.description {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  grid-row: 8;
+  grid-column: 1;
+  font-weight: medium;
+  align-self: center;
+}
+
+.readMore {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  grid-row: 9;
+  grid-column: 1;
+  color: red;
+  font-size: 1.5vw;
+  justify-self: start;
+  margin-top: 1vw;
+  padding-bottom: 2vw;
+  transition: all;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.readMore:hover {
+  font-size: 1.7vw;
+  cursor: pointer;
+}

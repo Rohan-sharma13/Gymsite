@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-rows: minmax(20px, 70px);
+  justify-content: space-around;
+  row-gap: 1vw;
+  background-color: rgb(177, 52, 14);
+  position: sticky;
+}
+
+.logo {
+  grid-row: 2;
+  align-self: start;
+  justify-self: center;
+  color: white;
+  font-size: 5vw;
+  /* animation-name: zoom;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-duration: 0.7s;
+  animation-delay: 0.2s; */
+}
+
+/* @keyframes zoom {
+  0% {
+    font-size: 1vw;
+  }
+  20% {
+    font-size: 2vw;
+  }
+  40% {
+    font-size: 3vw;
+  }
+  60% {
+    font-size: 4vw;
+  }
+  80% {
+    font-size: 5vw;
+  }
+  100% {
+    font-size: 6vw;
+  }
+} */
+.heading {
+  margin-top: 1vw;
+  grid-row: 3;
+  justify-self: center;
+  align-self: end;
+  text-transform: uppercase;
+  font-size: 1.7vw;
+  font-weight: bolder;
+  color: black;
+}
+
+.content {
+  grid-row: 4;
+  justify-self: center;
+  padding: 4vw;
+  align-self: start;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+}

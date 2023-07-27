@@ -1,0 +1,66 @@
+.container {
+  margin-top: 3vw;
+}
+
+.form_row {
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 2vw;
+  display: flex;
+  border: 1px solid black;
+}
+
+.button {
+  margin-top: 3vw;
+  margin-left: 14vw;
+  padding: 1vw;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 1.2vw;
+  letter-spacing: 0.06cm;
+  transition: font-size;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+  text-transform: uppercase;
+  background-image: linear-gradient(orange, tomato);
+  outline: none;
+  border: none;
+}
+.button:hover {
+  font-size: 1.3vw;
+}
+.logo {
+  margin-top: 1vw;
+  font-size: 2.3vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+.prediction {
+  text-align: center;
+  margin-top: 2vw;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 1.2vw;
+  letter-spacing: 0.06cm;
+  transition: font-size;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+  text-transform: uppercase;
+  background-image: linear-gradient(orange, tomato);
+  outline: none;
+  border: none;
+  margin-left: 7vw;
+  margin-right: 7.5vw;
+}
+
+.noPrediction {
+  display: none;
+}

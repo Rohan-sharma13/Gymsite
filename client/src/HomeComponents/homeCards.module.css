@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  background-size: 500% 500%;
+  transition-property: background-position, border-radius, color,
+    background-image;
+  transition-duration: 700ms;
+  transition-timing-function: linear;
+  background-image: linear-gradient(white, white);
+  border: none;
+}
+
+.container:hover {
+  background-image: linear-gradient(orange, tomato);
+  background-position: 100% 100%;
+  color: white;
+  border-radius: 30%;
+  border: none;
+}
+
+.cardTitle {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: end;
+  text-align: center;
+  font-size: 2vw;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: -0.05cm;
+  word-spacing: 0.2cm;
+  font-weight: bold;
+}
+
+.cardContent {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: end;
+  text-align: justify;
+  font-size: 1.2vw;
+  padding: 3vw;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.read_more {
+  grid-column: 1;
+  grid-row: 3;
+  align-self: start;
+  justify-self: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(83, 73, 73, 0.959);
+  font-size: 1.3vw;
+  font-weight: bolder;
+  transition: font-size;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
+.read_more:hover {
+  font-size: 1.5vw;
+  cursor: pointer;
+}

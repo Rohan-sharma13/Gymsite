@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(30px, 50px);
+  margin-bottom: 2vw;
+}
+
+.course_pic {
+  grid-row: 2/5;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-items: center;
+}
+
+.course_title {
+  grid-row: 9;
+  text-align: center;
+  font-size: 2.7vw;
+  color: white;
+  letter-spacing: 0.05cm;
+  transition: color font-size;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  word-spacing: 0.1cm;
+  font-family: "Peddana", serif;
+  background-color: rgb(46, 42, 42);
+  font-weight: bolder;
+  border: 2px solid white;
+}
+
+.course_title:hover {
+  color: tomato;
+  cursor: pointer;
+  font-size: 3vw;
+}
+
+.course_mentor {
+  padding-top: 1vw;
+  grid-row: 10;
+  align-self: start;
+  text-align: center;
+  font-size: 1.3vw;
+  color: white;
+  letter-spacing: 0.05cm;
+  word-spacing: 0.1cm;
+  background-color: rgb(46, 42, 42);
+  font-weight: bold;
+  padding-bottom: 1vw;
+  border: 2px solid white;
+}

@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.mainGrid {
+  margin-top: 6vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: minmax(20px, 100px);
+  justify-content: space-between;
+  border: 2-x solid black;
+  column-gap: 3vw;
+}
+
+.pic_1 {
+  grid-row: 1/10;
+  grid-column: 1;
+  background-image: url(../assets/bodybuilder_3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 50vw;
+}
+
+.aboutHeading {
+  grid-row: 1;
+  grid-column: 2/5;
+  color: grey;
+  font-size: 4vw;
+  align-self: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05cm;
+  word-spacing: 0.1cm;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+}
+
+.aboutSubHeading {
+  grid-row: 2;
+  grid-column: 2/5;
+  color: black;
+  font-size: 2.7vw;
+  text-transform: uppercase;
+  letter-spacing: 0.05cm;
+  word-spacing: 0.1cm;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  align-self: start;
+}
+
+.content {
+  margin-top: 2vw;
+  grid-row: 5/7;
+  grid-column: 2/5;
+  text-align: justify;
+  font-size: 1.4vw;
+  font-weight: normal;
+}
+
+.serviceButton {
+  margin-top: 2vw;
+  grid-row: 8;
+  grid-column: 2;
+  justify-self: end;
+  padding: 1.2vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 1vw;
+  letter-spacing: 0.05cm;
+  color: white;
+  border: 0.5px solid white;
+  transition: font-size;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+  text-transform: uppercase;
+  background-image: linear-gradient(tomato, orange);
+  margin-bottom: 1vw;
+}
+.serviceButton:hover {
+  font-size: 1.1vw;
+}

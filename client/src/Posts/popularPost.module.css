@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.title {
+  flex: 1;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 1vw;
+  font-size: 1.2vw;
+  font-weight: bolder;
+  font-family: "Quicksand", sans-serif;
+}
+
+.title:hover {
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+
+.content {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  flex: 1;
+  padding-left: 1.5vw;
+  font-size: 1.3vw;
+  font-weight: medium;
+  font-family: "Quicksand", sans-serif;
+  text-align: justify;
+}

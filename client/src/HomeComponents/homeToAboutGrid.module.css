@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.mainGrid {
+  margin-top: 6vw;
+  margin-left: 4vw;
+  margin-left: 4vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, 300px);
+  justify-content: space-between;
+  align-items: stretch;
+  column-gap: 3vw;
+}
+
+.picGrid {
+  grid-column: 1;
+  background-image: url(../assets/jogging.jpg);
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-size: 100% 100%;
+  grid-row: 1/2;
+  border-radius: 1%;
+}
+
+.topContent {
+  margin-top: -2vw;
+  grid-column: 2;
+  text-transform: uppercase;
+  font-weight: lighter;
+  grid-row: 1;
+  font-size: 2.4vw;
+  word-spacing: 0.1cm;
+  letter-spacing: 0.05cm;
+  justify-self: start;
+  align-self: start;
+}
+
+.bottomContentGrid {
+  margin-top: 3vw;
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 1.4vw;
+  align-self: center;
+  justify-self: center;
+  text-align: justify;
+  margin-right: 6vw;
+}
+
+.button {
+  margin-right: 30vw;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  font-weight: bolder;
+  padding-left: 2.2vw;
+  padding-right: 2.2vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  font-size: 1.1vw;
+  color: white;
+  border: transparent;
+  text-transform: uppercase;
+  background-image: linear-gradient(tomato, orange);
+  transition: font-size;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  font-size: 1.2vw;
+}

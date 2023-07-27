@@ -1,0 +1,43 @@
+.rodal-dialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 101;
+  padding: 15px;
+  background: rgb(255, 255, 255);
+  border-radius: 5%;
+  box-shadow: 1vw 1vw 1vw 1vw rgb(4, 8, 42);
+}
+
+.rodal-close {
+  position: absolute;
+  cursor: pointer;
+  top: 16px;
+  right: 16px;
+  width: 16px;
+  height: 16px;
+  color: blueviolet;
+}
+
+.rodal-close:before,
+.rodal-close:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #999;
+  border-radius: 100%;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.rodal-close:hover:before,
+.rodal-close:hover:after {
+  background: maroon;
+}

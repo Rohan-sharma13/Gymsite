@@ -1,0 +1,94 @@
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+  margin-right: 2vw;
+  margin-bottom: 10vw;
+  padding: 2rem 6rem;
+}
+
+.getProducts {
+  display: flex;
+  margin-top: 4vw;
+  margin-left: 10vw;
+  margin-right: 7vw;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.search {
+  padding-left: 1vw;
+  flex: 1;
+  height: 7vh;
+  width: 13vw;
+  font-size: 1.3vw;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.searchLogo {
+  padding-top: 0.7vw;
+  font-size: 1.7vw;
+  padding-right: 2vw;
+  transition-property: all;
+  transition-timing-function: ease-out;
+  transition-duration: 200ms;
+}
+
+.searchLogo:hover {
+  cursor: pointer;
+  font-size: 1.9vw;
+  padding-top: 0.5vw;
+}
+
+.dropdownItem {
+  margin-left: 44vw;
+  flex: 1;
+}
+
+.dropdown {
+  height: 6vh;
+  width: 8vw;
+  margin-left: 1vw;
+  padding-left: 1vw;
+}
+
+.sortHeading {
+  font-size: 1.45vw;
+  padding-right: 0.5vw;
+  font-weight: bolder;
+  color: brown;
+  letter-spacing: 0.05cm;
+  font-family: sans-serif;
+}
+.myCartButton {
+  display: flex;
+  margin-top: 4vw;
+  margin-left: 85vw;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 0.5vw;
+  font-size: 1.7vw;
+  color: white;
+  text-align: center;
+  outline: none;
+  background-image: linear-gradient(tomato, orange);
+  border: 2px solid white;
+  border-radius: 10px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.myCartButton:hover {
+  cursor: pointer;
+  font-size: 1.9vw;
+  color: black;
+}

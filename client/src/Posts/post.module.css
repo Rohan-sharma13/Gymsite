@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+.grid {
+  background-image: url(../assets/kettlebell.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.mainGrid {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: stretch;
+  align-items: stretch;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.boxContent {
+  margin-top: 5vw;
+  padding-top: 1vw;
+  padding-bottom: 5vw;
+  grid-row: 2;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.7vw;
+  align-self: end;
+  background-color: transparent;
+  text-align: center;
+  justify-self: center;
+  word-spacing: 0.1cm;
+  letter-spacing: 0.08cm;
+  text-transform: uppercase;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 2vw;
+}
+
+.posts {
+  margin-top: 5vw;
+  display: grid;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 4vw;
+}

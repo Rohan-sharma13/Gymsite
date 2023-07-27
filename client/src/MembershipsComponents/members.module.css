@@ -1,0 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.grid {
+  background-image: url(../assets/man_1282232_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.mainGrid {
+  display: grid;
+  grid-auto-rows: minmax(100px, auto);
+  justify-items: stretch;
+  align-items: stretch;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.boxContent {
+  margin-top: 5vw;
+  grid-row: 2;
+  padding-top: 1vw;
+  padding-bottom: 5vw;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.7vw;
+  align-self: end;
+  background-color: transparent;
+  text-align: center;
+  justify-self: center;
+  word-spacing: 0.1cm;
+  letter-spacing: 0.08cm;
+  text-transform: uppercase;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 2vw;
+}
+
+.imageGallery {
+  margin-top: 5vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: minmax(40px, 300px);
+}
+
+.imageCatalog,
+.topGrid {
+  margin-top: 3vw;
+  display: grid;
+  grid-template-rows: minmax(70px, 110px);
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imageborderTop,
+.cardborderTop {
+  color: tomato;
+  grid-row: 1;
+  grid-column: 2;
+  font-size: 3vw;
+  font-weight: bolder;
+  justify-self: center;
+  align-self: start;
+}
+
+.imageHeading,
+.cardHeading {
+  grid-row: 1;
+  grid-column: 2;
+  align-self: end;
+  justify-self: center;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.2vw;
+  letter-spacing: 0.1cm;
+}
+
+.imageSub_heading {
+  grid-row: 2;
+  grid-column: 2;
+  align-self: center;
+  justify-self: center;
+  font-weight: bold;
+  font-size: 1.4vw;
+  text-align: center;
+}
+
+.membershipCards {
+  margin-top: 6vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: minmax(30px, 550px);
+  column-gap: 4vw;
+}
+
+.popular_courses {
+  margin-top: 5vw;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  grid-template-rows: minmax(50px, 440px);
+  row-gap: 2vw;
+  column-gap: 4vw;
+}
+
+.all_courses_button,
+.loadMore {
+  margin-top: 2vw;
+  grid-row: 2;
+  grid-column: 1/4;
+  padding-top: 1.2vw;
+  padding-bottom: 1.2vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  justify-self: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 1vw;
+  align-self: end;
+  letter-spacing: 0.05cm;
+  transition: font-size;
+  color: white;
+  border: 1px solid white;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+  text-transform: uppercase;
+  margin-bottom: 0vw;
+  background-image: linear-gradient(orange, tomato);
+  outline: none;
+}
+.all_courses_button:hover {
+  font-size: 1.1vw;
+}
+
+.loadMore:hover {
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+.modelContainer {
+  flex: 1;
+  margin-top: 6vw;
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  justify-content: space-between;
+  margin-bottom: 3vw;
+}
+
+.model {
+  flex: 1;
+}
+
+.modelImage {
+  flex: 1;
+  background-image: url(../assets/alien.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 60vh;
+  width: 30vw;
+  animation-name: slide_in;
+  animation-fill-mode: none;
+  animation-timing-function: linear;
+  animation-duration: 35s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  margin-left: 5vw;
+}
+
+@keyframes slide_in {
+  0% {
+  }
+
+  2% {
+    transform: translateX(5vw);
+  }
+  4% {
+    transform: translateX(-4vw);
+  }
+
+  6% {
+    transform: translateX(5vw);
+  }
+  8% {
+    transform: translateX(-4vw);
+  }
+  10% {
+    transform: translateX(5vw);
+  }
+  12% {
+    transform: translateX(-4vw);
+  }
+  14% {
+    transform: translateX(5vw);
+  }
+  16% {
+    transform: translateX(-4vw);
+  }
+  18% {
+    transform: translateX(5vw);
+  }
+  20% {
+    transform: translateX(-4vw);
+  }
+
+  22% {
+    transform: translateX(5vw);
+  }
+  24% {
+    transform: translateX(-4vw);
+  }
+  26% {
+    transform: translateX(5vw);
+  }
+  28% {
+    transform: translateX(-4vw);
+  }
+  30% {
+    transform: translateX(5vw);
+  }
+  32% {
+    transform: translateX(-4vw);
+  }
+  34% {
+    transform: translateX(5vw);
+  }
+  36% {
+    transform: translateX(-4vw);
+  }
+  38% {
+    transform: translateX(5vw);
+  }
+  40% {
+    transform: translateX(-4vw);
+  }
+  42% {
+    transform: translateX(5vw);
+  }
+  44% {
+    transform: translateX(-4vw);
+  }
+  46% {
+    transform: translateX(5vw);
+  }
+  48% {
+    transform: translateX(-4vw);
+  }
+  50% {
+    transform: translateX(5vw);
+  }
+  52% {
+    transform: translateX(-4vw);
+  }
+  54% {
+    transform: translateX(5vw);
+  }
+  56% {
+    transform: translateX(-4vw);
+  }
+  58% {
+    transform: translateX(5vw);
+  }
+  60% {
+    transform: translateX(-4vw);
+  }
+  62% {
+    transform: translateX(5vw);
+  }
+  64% {
+    transform: translateX(-4vw);
+  }
+  66% {
+    transform: translateX(5vw);
+  }
+  68% {
+    transform: translateX(-4vw);
+  }
+  70% {
+    transform: translateX(5vw);
+  }
+  72% {
+    transform: translateX(-4vw);
+  }
+  74% {
+    transform: translateX(5vw);
+  }
+  76% {
+    transform: translateX(-4vw);
+  }
+  78% {
+    transform: translateX(5vw);
+  }
+  80% {
+    transform: translateX(-4vw);
+  }
+  82% {
+    transform: translateX(5vw);
+  }
+  84% {
+    transform: translateX(-4vw);
+  }
+  86% {
+    transform: translateX(5vw);
+  }
+  88% {
+    transform: translateX(-4vw);
+  }
+  90% {
+    transform: translateX(5vw);
+  }
+  92% {
+    transform: translateX(-4vw);
+  }
+  94% {
+    transform: translateX(5vw);
+  }
+  96% {
+    transform: translateX(-4vw);
+  }
+  98% {
+    transform: translateX(5vw);
+  }
+  100% {
+    transform: translateX(-4vw);
+  }
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.logo {
+  font-size: 2vw;
+}
+.day {
+  margin-left: 1vw;
+  font-size: 1.7vw;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(gray, green);
+}
+
+.time {
+  font-size: 1.3vw;
+  font-weight: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.grid {
+  background-image: url(../assets/man_1282232_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.mainGrid {
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  margin-right: 6vw;
+  margin-right: 6vw;
+  display: grid;
+  grid-auto-rows: minmax(10px, 80px);
+  justify-items: stretch;
+  align-items: stretch;
+  padding: 7vw;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.topContent {
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.1vw;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 0.05cm;
+  text-transform: uppercase;
+  color: white;
+}
+
+.mainContent_1 {
+  grid-row: 2;
+  justify-self: center;
+  font-size: 3.5vw;
+  font-family: "Anton", sans-serif;
+  word-spacing: 0.2cm;
+  letter-spacing: 0.07cm;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.mainContent_2 {
+  grid-row: 3;
+  justify-self: center;
+  font-size: 3.5vw;
+  font-family: "Anton", sans-serif;
+  word-spacing: 0.2cm;
+  letter-spacing: 0.07cm;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: white;
+}
+
+.button {
+  grid-row: 4;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  align-self: end;
+  font-size: 1vw;
+  letter-spacing: 0.05cm;
+  justify-self: center;
+  align-self: end;
+  padding-left: 1.9vw;
+  padding-right: 1.9vw;
+  padding-top: 1.5vw;
+  padding-bottom: 1.5vw;
+  padding-right: 2vw;
+  color: white;
+  border: transparent;
+  text-transform: uppercase;
+  background-image: linear-gradient(tomato, orange);
+  transition: font-size, transform;
+  transition-timing-function: linear;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  font-size: 1.2vw;
+  transform: rotateX(180 degree);
+}
